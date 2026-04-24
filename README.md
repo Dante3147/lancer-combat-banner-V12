@@ -1,4 +1,8 @@
 
+# Original Creator/Criador Original
+
+[LINK DO REPOSITORIO ORIGINAL](https://github.com/hiddenkrypt/lancer-combat-banner)
+
 # Instalação
 Este módulo está aguardando inclusão na Foundry. Até lá, use um destes links de manifesto diretamente:
 Para Foundry v12: [https://github.com/hiddenkrypt/LancerCombatBanner/releases/download/v2.1/module.json](https://github.com/Dante3147/lancer-combat-banner-V12/blob/main/module.json)
