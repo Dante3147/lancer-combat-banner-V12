@@ -70,6 +70,7 @@ function LancerCombatBanner() {
         let element = document.getElementById("newRoundBanner");
         if(element){
           element.classList.add("removing");
+          element.addEventListener("animationend", () => safeDelete("newRoundBanner"), { once: true });
         }
       }
     }, 3000);
@@ -118,16 +119,21 @@ function LancerCombatBanner() {
         var element = document.getElementById("yourTurnBannerBackground");
         if(element){
           element.classList.add("removing");
+          element.addEventListener("animationend", () => safeDelete("yourTurnBannerBackground"), { once: true });
         }
 
         element = document.getElementById("yourTurnBanner");
         if(element){
           element.classList.add("removing");
+          element.addEventListener("animationend", () => safeDelete("yourTurnBanner"), { once: true });
         }
 
         element = document.getElementById("yourTurnImageId");
         if(element){
+          element.classList.remove("adding");
+          void element.offsetWidth;
           element.classList.add("removing");
+          element.addEventListener("animationend", () => safeDelete("yourTurnImageId"), { once: true });
         }
       }
     }, 5000);
