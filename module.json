@@ -4,16 +4,16 @@
   "description": "Adds a graphic banner when character is activated in combat and when a new round starts. Based on 'Your Turn!' by Autmor.",
   "version": "2.02",
   "authors": [
-     {
-      "name Mod autor": "Stalker",
-      "email original autor": "dante31477@outlook.com",
-      "discord tag": "stalker8231",
+    {
+      "name": "Stalker",
+      "email": "dante31477@outlook.com",
+      "discord": "stalker8231",
       "flags": {}
     },
     {
-      "name original autor": "Ada",
-      "email original autor": "hiddenkrypt@gmail.com",
-      "discord tag": "0x0ada",
+      "name": "Ada",
+      "email": "hiddenkrypt@gmail.com",
+      "discord": "0x0ada",
       "flags": {}
     }
   ],
